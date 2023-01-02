@@ -1,18 +1,30 @@
+.container {
+	display: grid;
+	width: 200px;
+	padding: 5px 20px;
+}
+
 .carousel-container {
 	overflow: hidden;
+	height: 300px;
 }
 
 .inner {
 	white-space: nowrap;
-	transition: transform 0.3s;
+/* 	transition: transform 0.1s; */
 }
 
 .carousel-item {
-	display: inline-flex;
+	display: flex;
 	align-items: center;
 	justify-content: center;
-	height: 200px;
+	height: 300px;
 	background-color: red;
 	color: white;
 	width: 100%;
+}
+
+.selector-btn {
+	border: none;
+/* 	margin: 0 auto; */
 }

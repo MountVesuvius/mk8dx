@@ -12,6 +12,8 @@ export const CarouselItem = ({children}) => {
 const Carousel = ({children}) => {
 	const [index, setIndex] = useState(0); // Starts at index 0
 
+	const volume = react.Children.count(children);
+
 	const updateIndex = (newIndex) => {
 		if (newIndex < 0) {
 			newIndex = react.Children.count(children) - 1;
@@ -23,24 +25,22 @@ const Carousel = ({children}) => {
 	}
 
 	return (
-		<div className="carousel-container">
-		{/* change to translateY() for slot style */}
-			<div className="inner" style={{transform: `translateX(-${index * 100}%)`}}>
-				{react.Children.map(children, (child, index) => {
-					return react.cloneElement(child);
-				})}	
+		<div className="container">
+			<button className="selector-btn" onClick={() => {updateIndex(index - 1); }}>
+				Previous
+			</button>
+
+			<div className="carousel-container">
+				<div className="inner" style={{transform: `translateY(-${index * (100/volume)}%)`}}>
+					{react.Children.map(children, (child, index) => {
+						return react.cloneElement(child);
+					})}	
+				</div>
 			</div>
 
-			<div className="selectors">
-				<button onClick={() => {updateIndex(index - 1); }}>
-					Previous
-				</button>
-
-				<button onClick={() => {updateIndex(index + 1); }}>
-					Next
-				</button>
-			</div>
-
+			<button className="selector-btn" onClick={() => {updateIndex(index + 1); }}>
+				Next
+			</button>
 		</div>
 	)
 }
