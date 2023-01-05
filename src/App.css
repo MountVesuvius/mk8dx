@@ -1,3 +1,8 @@
+body {
+	background: #1b1b1b;	
+}
+
+
 .slot {
 	display: flex;
 	flex-wrap: wrap;
@@ -6,11 +11,11 @@
 
 .glass {
 	z-index: 1;
-	position: absolute;
-	width: 450px;
-	height: 355px;
-	left: 45px;
-	top: 275px;
+/* 	position: absolute; */
+/* 	width: 450px; */
+/* 	height: 355px; */
+/* 	left: 45px; */
+/* 	top: 275px; */
 
 	background: linear-gradient(123.57deg, rgba(255, 255, 255, 0.4) 0%, rgba(255, 255, 255, 0.1) 104.93%);
 	border: 2px solid rgba(255, 255, 255, 0.5);

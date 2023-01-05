@@ -1,6 +1,9 @@
 import react, { useState } from 'react';
 import "../Styles/Carousel.css";
 
+import StatBox from './StatBox';
+
+
 export const CarouselItem = ({children}) => {
 	return (
 		<div className="carousel-item">
@@ -10,7 +13,7 @@ export const CarouselItem = ({children}) => {
 };
 
 const Carousel = ({children}) => {
-	const [index, setIndex] = useState(0); // Starts at index 0
+	const [index, setIndex] = useState(0);
 
 	const volume = react.Children.count(children);
 
@@ -26,7 +29,7 @@ const Carousel = ({children}) => {
 
 	return (
 		<div className="container">
-			<button className="selector-btn" onClick={() => {updateIndex(index - 1); }}>
+			<button className="selector-btn" id="previous" onClick={() => {updateIndex(index - 1); }}>
 				Previous
 			</button>
 
@@ -38,9 +41,10 @@ const Carousel = ({children}) => {
 				</div>
 			</div>
 
-			<button className="selector-btn" onClick={() => {updateIndex(index + 1); }}>
+			<button className="selector-btn" id="next" onClick={() => {updateIndex(index + 1); }}>
 				Next
 			</button>
+			<StatBox index={index}></StatBox>
 		</div>
 	)
 }
