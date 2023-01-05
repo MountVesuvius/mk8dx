@@ -11,6 +11,28 @@ sometimes, the universe says "do it the hard way"
 i'll get webpack working later……
 '''
 
+import json
+
+def createArray(object_array):
+    print("= [", end="")
+    for i in object_array:
+        print('"' + i['name'] + '.png"', end=", ")
+    print("]")
+
+f = open('part_data.json')
+data = json.load(f)
+parts = data['part_dict']
+
+createArray(parts['body'])
+createArray(parts['char'])
+createArray(parts['glider'])
+createArray(parts['tire'])
+
+f.close()
+
+
+# Swapped to json file order to allow for faster lookups via id for part data
+'''
 import os
 
 directory = './Sprites/'
@@ -26,6 +48,9 @@ def createArray(directory):
             print("\"" + filename + "\"", end=", ")
     print("]")
 
-for i in folders:
-    print(i, end="")
-    createArray(directory + i)
+
+
+#  for i in folders:
+    #  print(i, end="")
+    #  createArray(directory + i)
+'''
