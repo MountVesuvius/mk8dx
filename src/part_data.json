@@ -5959,5 +5959,20 @@
       "tiremin": 0, 
       "type": "int"
     }
-  ]
+  ],
+  "attr_keys": {
+     "wgt": "Weight",
+     "acc": "Acceleration",
+     "ttr": "Traction-On-Road",
+     "ttm": "Traction-Off-Road",
+     "mtb": "Mini-Turbo",
+     "spg": "Speed Ground",
+     "spw": "Speed Water",
+     "spy": "Speed Anti-Gravity",
+     "spr": "Speed Air",
+     "hdg": "Handling Ground",
+     "hdw": "Handling Water",
+     "hdy": "Handling Anti-Gravity",
+     "hda": "Handling Air"
+  }
 }
