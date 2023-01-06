@@ -1,0 +1,25 @@
+.rand {
+	display: flex;
+	justify-content: space-between;
+	flex-wrap: wrap;
+}
+
+.container {
+	display: flex;
+}
+
+/* Just for while they are spans */
+.img-container {
+	display: flex;
+	flex-direction: column;
+}
+
+.img-container img {
+	width: 25%;
+}
+
+.stats-container {
+	display: flex;
+	flex-direction: column;
+	padding: 10px;
+}
