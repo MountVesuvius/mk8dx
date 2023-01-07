@@ -1,0 +1,26 @@
+/* Temp CSS while feature testing */
+.bar-container {
+  padding: 5px 0;
+}
+
+.bar-wrapper {
+  height: 20;
+  width: '100%';
+  background-color: #232C33;
+  margin: 50;
+  outline: white 2px solid;
+  border-radius: 1px;
+  }
+
+.filler {
+  height: 100%;
+  background-color: #fee440;
+  border-radius: inherit;
+  text-align: right;
+  }
+
+.label {
+  padding: 5px;
+  color: black;
+  font-weight: bold;
+  }
