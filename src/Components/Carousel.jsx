@@ -1,3 +1,4 @@
+// Not currently using this. have plans for it though
 import react, { useState } from 'react';
 import "../Styles/Carousel.css";
 

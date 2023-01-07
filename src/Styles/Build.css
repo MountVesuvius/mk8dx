@@ -1,25 +1,55 @@
-.rand {
-	display: flex;
-	justify-content: space-between;
-	flex-wrap: wrap;
-}
+/* Still fooling around with this */
 
 .container {
+	position: relative;
 	display: flex;
+	justify-content: space-around;
+	align-items: center;
+
+	width: 27%;
+	padding: 1vw;
+
+/* 	background: linear-gradient(123.57deg, rgba(255, 255, 255, 0.4) 0%, rgba(255, 255, 255, 0.1) 104.93%); */
+/* 	border: 2px solid rgba(255, 255, 255, 0.5); */
+/* 	box-shadow: 0px 4px 24px -1px rgba(0, 0, 0, 0.25); */
+/* 	border-radius: 10px; */
+/* 	backdrop-filter: blur(5px); */
+
+
+/* 	border: red 3px solid; */
 }
 
-/* Just for while they are spans */
 .img-container {
 	display: flex;
 	flex-direction: column;
+	justify-content: center;
+	align-items: center;
+
+	width: 30%;
+
+/* 	border: green 2px solid; */
 }
 
 .img-container img {
-	width: 25%;
+	width: 100%;
 }
+
+.img-container div {
+	display: flex;
+	flex-direction: column;
+	align-items: center;
+	padding: 10px 0;
+}
+
 
 .stats-container {
 	display: flex;
 	flex-direction: column;
-	padding: 10px;
+	justify-content: space-between;
+
+	width: 50%;
+	height: 100%;
+	padding: 1vw;
+
+/* 	border: blue 2px solid; */
 }

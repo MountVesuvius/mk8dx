@@ -1,5 +1,7 @@
 import react, { useState } from 'react';
 
+import StatBar from './StatBar';
+
 import data from '../part_data.json';
 import '../Styles/Build.css';
 
@@ -34,6 +36,13 @@ const Build = ({character, kart, tires, glider}) => {
 		"handling-air": 0
 	}
 
+	/*
+	Function: calculateBuildStats
+
+	Fills buildStats dictionary above to fill in the StatBar component.
+	Might need to change this a little later, but currently it does
+	the job.
+	*/
 	function calculateBuildStats() {
 		for (var key in contain) {
 		    if (contain.hasOwnProperty(key)) {
@@ -58,34 +67,42 @@ const Build = ({character, kart, tires, glider}) => {
 
 		return buildStats;
 	}
-	calculateBuildStats();
+	calculateBuildStats(); // Run every time a component is made
 
 	return (
+		<>
 		<div className="container">
 			<div className="img-container">
-				<span>{char['name']}</span>
-				<img src={imgDir_chars + char['name'] + ".png"} alt={body['name']}/>
-				<span>{body['name']}</span>
-				<img src={imgDir_karts + body['name'] + ".png"} alt={body['name']}/>
-				<span>{tire['name']}</span>
-				<img src={imgDir_tires + tire['name'] + ".png"} alt={body['name']}/>
-				<span>{glide['name']}</span>
-				<img src={imgDir_gliders + glide['name'] + ".png"} alt={body['name']}/>
+				<div>
+					<span>{char['name']}</span>
+					<img src={imgDir_chars + char['name'] + ".png"} alt={body['name']}/>
+				</div>
+				<div>
+					<span>{body['name']}</span>
+					<img src={imgDir_karts + body['name'] + ".png"} alt={body['name']}/>
+				</div>
+				<div>
+					<span>{tire['name']}</span>
+					<img src={imgDir_tires + tire['name'] + ".png"} alt={body['name']}/>
+				</div>
+				<div>
+					<span>{glide['name']}</span>
+					<img src={imgDir_gliders + glide['name'] + ".png"} alt={body['name']}/>
+				</div>
 			</div>
 			<div className="stats-container">
 				{
 					Object.keys(buildStats).map(key => (
-						<>
-						<span>{`${key}: ${buildStats[key]}`}</span>
-						{/* Little bit of a cheeky hack for now */}
-						<span>{"█".repeat(buildStats[key])}</span>
-						</>
-						))
+						<StatBar title={key} points={buildStats[key]}></StatBar>
+					))
 				}
+				{/* <StatBar title={10} points={10} array={[1,2,3,4]}></StatBar> */}
 			</div>
 		</div>	
+		</>
 	)
 }
 
 export default Build;
-// █
+// OG StatBar: █
+// <span>{"█".repeat(buildStats[key])}</span>
