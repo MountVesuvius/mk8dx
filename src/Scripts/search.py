@@ -60,7 +60,7 @@ def find_combinations(val, l1, l2, l3, target_sum):
         combinations.append((val, i, j, k))
   return combinations
 
-def getStatBuild(groups, stat, value):
+def getStatBuild(groups, value):
 	a = [list(groups[group]) for group in groups]
 	b = find_combinations(10, a[1], a[2], a[3], value)
 	print(b)
@@ -69,7 +69,7 @@ f = open(file)
 data = json.load(f);
 
 weight = statGrouping('wgt')
-getStatBuild(weight, 0, 15)
+getStatBuild(weight, 15)
 
 # print(data)
 # for i in data['attr_keys']:
