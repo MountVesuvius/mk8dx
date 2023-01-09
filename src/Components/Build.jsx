@@ -69,6 +69,20 @@ const Build = ({character, kart, tires, glider}) => {
 	}
 	calculateBuildStats(); // Run every time a component is made
 
+	/*
+	TODO: Multibars
+
+	Component has been updated to accept multiple bars in a single container.
+	Need to find a way to force "like-stats" together.
+	Side Note: Find a way to squish the bars down more for when they are used 
+	in modals later.
+
+
+	TODO: Title Texts
+
+	Currently using their stat tags. Create proper title tags
+	*/
+
 	return (
 		<>
 		<div className="container">
