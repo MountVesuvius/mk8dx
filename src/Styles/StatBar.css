@@ -1,3 +1,10 @@
+:root {
+  --yellow: #FDE74C;
+  --blue: #007FFF;
+  --red: #DB5461;
+  --dark: #232C33;
+}
+
 /* Temp CSS while feature testing */
 .bar-container {
   padding: 5px 0;
@@ -6,21 +13,33 @@
 .bar-wrapper {
   height: 20;
   width: '100%';
-  background-color: #232C33;
+  background-color: var(--dark);
   margin: 50;
   outline: white 2px solid;
   border-radius: 1px;
-  }
+}
 
 .filler {
   height: 100%;
-  background-color: #fee440;
   border-radius: inherit;
   text-align: right;
-  }
+  background-color: var(--yellow);
+}
+
+.filler:nth-child(2) {
+  background-color: var(--blue);
+}
+
+.filler:nth-child(3) {
+  background-color: var(--red);
+}
+
+.filler:nth-child(4) {
+  background-color: white;
+}
 
 .label {
   padding: 5px;
   color: black;
   font-weight: bold;
-  }
+}
