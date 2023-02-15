@@ -1,0 +1,60 @@
+Date,Time,Player,Nation,Days,Lap 1,Lap 2,Lap 3,Coins,Shrooms,Character,Kart,Tires,Glider
+Pre-release,1:04.802,Del,,<1,22.234,21.162,21.406,4-1-0,1-1-1,Bowser Jr.,Standard Kart,Button,Super Glider
+2017-04-28,1:04.461,Danny,,<1,22.541,20.695,21.225,-,1-1-1,Morton,Splat Buggy,Slim,Super Glider
+2017-04-28,1:04.431,Finn,,<1,22.604,21.290,20.537,6-3-1,1-1-1,Inkling Girl,Splat Buggy,Slim,Parachute
+2017-04-28,1:02.876,Power,,1,23.057,20.003,19.816,9-0-1,0-1-2,Male Villager,Streetle,Slim,Super Glider
+2017-04-29,1:02.730,Mick,,<1,-,-,-,3-0-0,1-1-1,Orange Yoshi,Streetle,Roller,Super Glider
+2017-04-29,1:01.218,Mick,,<1,21.567,19.858,19.793,3-1-1,1-1-1,Orange Yoshi,Streetle,Roller,Super Glider
+2017-04-29,1:00.412,Mick,,<1,20.739,19.973,19.700,4-0-1,1-1-1,Orange Yoshi,Streetle,Roller,Super Glider
+2017-04-29,0:59.659,Mick,,8,20.624,19.728,19.307,4-2-0,1-1-1,Orange Yoshi,Streetle,Roller,Super Glider
+2017-05-07,0:59.448,Doodle,,4,20.384,19.208,19.856,5-1-0,1-1-1,Orange Inkling Girl,Streetle,Roller,Cloud Glider
+2017-05-11,0:59.348,Mick,,<1,20.554,19.613,19.181,4-1-0,1-1-1,Yoshi,Biddybuggy,Azure Roller,Parachute
+2017-05-11,0:59.283,Mick,,<1,20.568,19.433,19.282,5-1-0,1-1-1,Yoshi,Biddybuggy,Azure Roller,Parachute
+2017-05-11,0:59.036,Mick,,<1,20.341,19.339,19.356,5-0-0,1-1-1,Yoshi,Biddybuggy,Azure Roller,Parachute
+2017-05-11,0:59.029,Doodle,,<1,20.417,19.386,19.226,4-1-0,1-1-1,Green Inkling Girl,Landship,Azure Roller,Cloud Glider
+2017-05-11,0:58.956,Mick,,<1,20.440,19.371,19.145,5-1-0,1-1-1,Yoshi,Biddybuggy,Azure Roller,Parachute
+2017-05-11,0:58.898,Doodle,,<1,20.215,19.159,19.524,3-1-0,1-1-1,Green Inkling Girl,Landship,Azure Roller,Cloud Glider
+2017-05-11,0:58.763,Doodle,,4,20.252,19.187,19.324,5-0-0,1-1-1,Green Inkling Girl,Landship,Azure Roller,Cloud Glider
+2017-05-15,0:58.607,Mick,,49,20.074,19.313,19.220,5-1-0,1-1-1,Koopa Troopa,Pipe Frame,Azure Roller,Cloud Glider
+2017-07-03,0:58.514,Mick,,<1,20.192,19.201,19.121,-,1-1-1,Koopa Troopa,Pipe Frame,Azure Roller,Cloud Glider
+2017-07-03,0:58.324,Mick,,2,20.032,19.111,19.181,5-0-0,1-1-1,Koopa Troopa,Pipe Frame,Azure Roller,Cloud Glider
+2017-07-05,0:58.249,Mick,,<1,20.074,18.870,19.305,-,1-1-1,Baby Daisy,Pipe Frame,Roller,Cloud Glider
+2017-07-05,0:58.238,Mick,,5,19.996,19.022,19.220,4-1-1,1-1-1,Baby Daisy,Pipe Frame,Roller,Cloud Glider
+2017-07-10,0:58.230,Mick,,<1,19.940,19.136,19.154,4-1-0,1-1-1,Baby Daisy,Pipe Frame,Roller,Flower Glider
+2017-07-10,0:58.165,Mick,,<1,19.853,19.160,19.152,5-0-1,1-1-1,Baby Daisy,Pipe Frame,Roller,Flower Glider
+2017-07-10,0:57.915,Mick,,307,19.872,19.061,18.982,5-1-0,1-1-1,Baby Daisy,Pipe Frame,Roller,Flower Glider
+2018-05-13,0:57.860,Kevin,,94,19.853,18.895,19.112,5-1-0,1-1-1,Larry,Biddybuggy,Azure Roller,Parachute
+2018-08-15,0:57.814,Darky,,1,20.082,18.797,18.935,5-1-0,1-1-1,Baby Daisy,Biddybuggy,Roller,Paper Glider
+2018-08-16,0:57.723,Doodle,,2,19.862,18.946,18.915,5-1-0,1-1-1,Baby Peach,Biddybuggy,Azure Roller,Cloud Glider
+2018-08-18,0:57.704,Iván ,,6,19.997,18.857,18.850,5-0-0,1-1-1,Koopa Troopa,Biddybuggy,Roller,Paper Glider
+2018-08-24,0:57.627,Darky,,1,20.004,18.851,18.772,5-1-0,1-1-1,Baby Daisy,Landship,Roller,Paper Glider
+2018-08-25,0:57.575,Alberto,,1,20.032,18.765,18.778,5-1-0,1-1-1,Koopa Troopa,Streetle,Azure Roller,Paper Glider
+2018-08-26,0:57.552,Iván ,,1,19.961,18.726,18.865,4-0-1,1-1-1,Koopa Troopa,Streetle,Roller,Paper Glider
+2018-08-27,0:57.381,Alberto,,3,19.670,18.831,18.880,5-1-0,1-1-1,Koopa Troopa,Streetle,Azure Roller,Parachute
+2018-08-30,0:57.258,Alberto,,79,19.889,18.868,18.501,5-0-0,1-1-1,Koopa Troopa,Streetle,Azure Roller,Parachute
+2018-11-17,0:57.162,Iván ,,61,19.920,18.657,18.585,5-1-0,1-1-1,Koopa Troopa,Streetle,Roller,Paper Glider
+2019-01-17,0:57.012,Alberto,,116,19.761,18.559,18.692,5-0-1,1-1-1,Koopa Troopa,Streetle,Azure Roller,Paper Glider
+2019-05-13,0:56.973,Alberto,,1,19.586,18.791,18.596,5-1-0,1-1-1,Lakitu,Streetle,Azure Roller,Paper Glider
+2019-05-14,0:56.882,Alberto,,473,19.742,18.564,18.576,5-1-0,1-1-1,Koopa Troopa,Streetle,Azure Roller,Paper Glider
+2020-08-29,0:56.828,Panda,,<1,19.678,18.668,18.482,6-0-1,1-1-1,Baby Peach,Biddybuggy,Azure Roller,Paper Glider
+2020-08-29,0:56.766,Alberto,,<1,19.875,18.332,18.559,6-0-0,1-1-1,Baby Peach,Biddybuggy,Azure Roller,Parachute
+2020-08-29,0:56.552,Alberto,,1,19.769,18.381,18.402,6-0-0,1-1-1,Baby Peach,Biddybuggy,Azure Roller,Parachute
+2020-08-30,0:56.518,Alberto,,<1,19.706,18.463,18.349,6-1-0,1-1-1,Baby Peach,Biddybuggy,Azure Roller,Parachute
+2020-08-30,0:56.416,Alberto,,1,19.749,18.284,18.383,6-0-0,1-1-1,Baby Peach,Biddybuggy,Azure Roller,Parachute
+2020-08-31,0:56.364,Alberto,,<1,19.753,18.340,18.271,6-0-0,1-1-1,Baby Peach,Biddybuggy,Azure Roller,Parachute
+2020-08-31,0:56.273,Alberto,,81,19.736,18.256,18.281,6-0-0,1-1-1,Baby Peach,Biddybuggy,Azure Roller,Parachute
+2020-11-20,0:56.208,JenZua,,5,19.666,18.523,18.019,5-2-0,1-1-1,Baby Daisy,Biddybuggy,Azure Roller,Parachute
+2020-11-25,0:56.174,JenZua,,4,19.584,18.239,18.351,6-0-0,1-1-1,Baby Daisy,Biddybuggy,Azure Roller,Parachute
+2020-11-29,0:55.992,EternalX,,23,19.604,18.305,18.083,6-0-0,1-1-1,Baby Peach,Biddybuggy,Azure Roller,Parachute
+2020-12-22,0:55.871,EternalX,,61,19.643,18.151,18.077,6-0-0,1-1-1,Baby Daisy,Biddybuggy,Azure Roller,Parachute
+2021-02-21,0:55.798,JenZua,,7,19.583,18.192,18.023,6-0-0,1-1-1,Baby Daisy,Biddybuggy,Azure Roller,Paper Glider
+2021-02-28,0:55.732,JenZua,,16,19.330,18.313,18.089,4-4-0,1-1-1,Baby Daisy,Biddybuggy,Azure Roller,Paper Glider
+2021-03-16,0:55.617,EternalX,,146,19.570,18.014,18.033,6-0-0,1-1-1,Baby Daisy,Biddybuggy,Azure Roller,Parachute
+2021-08-09,0:55.581,JenZua,,<1,19.392,18.350,17.839,5-4-0,1-1-1,Baby Daisy,Biddybuggy,Azure Roller,Paper Glider
+2021-08-09,0:55.578,JenZua,,5,19.327,18.261,17.990,5-4-0,1-1-1,Baby Daisy ,Biddybuggy ,Azure Roller ,Paper Glider
+2021-08-14,0:55.546,EternalX,,140,19.360,18.224,17.962,5-4-0,1-1-1,Baby Daisy ,Biddybuggy ,Azure Roller ,Parachute
+2022-01-01,0:55.458,JenZua,,9,19.276,18.369,17.813,5-3-0,1-1-1,Baby Daisy,Biddybuggy,Azure Roller,Paper Glider
+2022-01-10,0:55.415,EternalX,,291,19.382,18.210,17.823,5-4-0,1-1-1,Baby Daisy,Biddybuggy,Azure Roller,Parachute
+2022-10-28,0:55.372,JenZua,,2,19.338,18.084,17.950,5-4-0,1-1-1,Baby Daisy,Biddybuggy,Azure Roller,Paper Glider
+2022-10-30,0:55.320,JenZua,,3,19.192,18.224,17.904,5-4-0,1-1-1,Baby Daisy,Biddybuggy,Azure Roller,Paper Glider
+2022-11-02,0:55.241,JenZua,,104,19.194,18.233,17.814,5-4-0,1-1-1,Baby Daisy,Biddybuggy,Azure Roller,Paper Glider
