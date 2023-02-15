@@ -3,7 +3,7 @@ body {
 
 	background-image: url("./background.jpg");
 	background-position: bottom;
-	animation: 250s linear 0s infinite bp;
+	animation: 200s linear 0s infinite bp;
 	min-height: 100%;
     display: grid;
 	grid-template-rows: 54px auto 1fr;
@@ -19,6 +19,10 @@ body {
   to {
     background-position:  0 1200px;
   }
+}
+
+.graph-container {
+	padding: 20px;
 }
 
 /* 
